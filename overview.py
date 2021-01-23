@@ -1,12 +1,17 @@
 import requests 
 from bs4 import BeautifulSoup
-page = requests.get("https://www.drugs.com/mtm/previfem.html")
-soup = BeautifulSoup(page.content, 'html.parser')
+import re
 
-
-description = soup.find_all("p")[2]
-
-#add replaces in here for weird text or regex
-f = open("description.txt", "a")
-f.write(str(description))
-f.close()
+class Overview:
+    def __init__(self, link, name):
+        self.__link = link
+        self.__name = name
+    def buildOverview(self):
+        page = requests.get(self.__link)
+        soup = BeautifulSoup(page.content, 'html.parser')
+        description = soup.find_all("p")[2]
+        f = open(self.__name+".txt", "w")
+        f.write((self.__name).capitalize()+"\n")
+        curr =re.sub('<a[^>]+>', '',str(description))
+        f.write(curr.replace("<p>","").replace("</p>","").replace("</a>","")+"\n")
+        f.close()
