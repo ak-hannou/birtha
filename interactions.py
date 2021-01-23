@@ -6,13 +6,36 @@ soup = BeautifulSoup(page.content, 'html.parser')
 
 
 div1 = soup.select("ul.interactions.ddc-list-unstyled li.int_1 a")
+soup = BeautifulSoup(str(div1)[1:-1],'html.parser')
+soup = BeautifulSoup(str(soup.extract()),'html.parser')
+print(soup.extract())
+for a in soup.find_all('a'):
+    del a['href']
+print(soup.contents)
+for a in soup.find_all('a'):
+    a.replaceWithChildren()
+print(soup.contents)
 
-print(div1)
-
+soup = BeautifulSoup(page.content, 'html.parser')
 div2 = soup.select("ul.interactions.ddc-list-unstyled li.int_2 a")
+soup = BeautifulSoup(str(div2)[1:-1],'html.parser')
+soup = BeautifulSoup(str(soup.extract()),'html.parser')
+print(soup.extract())
+for a in soup.find_all('a'):
+    del a['href']
+print(soup.contents)
+for a in soup.find_all('a'):
+    a.replaceWithChildren()
+print(soup.contents)
 
-print(div2)
-
+soup = BeautifulSoup(page.content, 'html.parser')
 div3 = soup.select("ul.interactions.ddc-list-unstyled li.int_3 a")
-
-print(div3)
+soup = BeautifulSoup(str(div3)[1:-1],'html.parser')
+soup = BeautifulSoup(str(soup.extract()),'html.parser')
+print(soup.extract())
+for a in soup.find_all('a'):
+    del a['href']
+print(soup.contents)
+for a in soup.find_all('a'):
+    a.replaceWithChildren()
+print(soup.contents) 
