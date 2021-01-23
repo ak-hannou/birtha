@@ -4,4 +4,9 @@ page = requests.get("https://www.drugs.com/mtm/previfem.html")
 soup = BeautifulSoup(page.content, 'html.parser')
 
 
-print(soup.find_all("p")[2])
+description = soup.find_all("p")[2]
+
+
+f = open("description.txt", "a")
+f.write(str(description))
+f.close()
