@@ -1,11 +1,12 @@
 Previfem
 Previfem is a combination birth control pill containing female hormones that prevent ovulation (the release of an egg from an ovary).  Previfem also causes changes in your cervical mucus and uterine lining, making it harder for sperm to reach the uterus and harder for a fertilized egg to attach to the uterus.
-No level 1 interactions
+Level 1 interactions:
+clonazepam
 Level 2 interactions:
 levothyroxine
-levothyroxine
+prednisone
+propranolol
 Level 3 interactions:
-tizanidine
 tizanidine
 
 For Birth Control: “I really don't like this pill. I was on it for about two months in a desperate attempt to change my period so I wouldn't get it on my wedding night. I visited the porcelain gods about 2-3 times a week at 2 AM (it was recommended I take this before bed with a little snack, which I'd done for years with a different birth control). No matter what I did, my stomach would become upset. After two months I decided there was no way sex could be worth a constant upset stomach and I stopped taking this. Best decision ever. Now I'm on Lo Loestrin Fe and I've had no problems.”

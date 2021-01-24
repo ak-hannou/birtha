@@ -22,9 +22,11 @@ class Reviews:
             curr = str(cat)
             curr =re.sub('<span[^>]+>', '',str(cat))
             c.write(curr.replace("</span>","").replace("</th>","").replace("<th>","").replace("<th scope=\"row\">","").replace("Off-label","")+"\n")
-        if(len(soup.find_all(colspan="2")) != 0):
-            overall_score = soup.find_all(colspan="2")[-2] #overall score
-            c.write(str(overall_score).replace("<td colspan=\"2\">","").replace("</td>","")+"\n")
+        if(len(soup.find_all(colspan="2")) != 1):
+                print(len(soup.find_all(colspan="2")))
+                overall_score = soup.find_all(colspan="2")[-2] #overall score
+                c.write(str(overall_score).replace("<td colspan=\"2\">","").replace("</td>","")+"\n")
+            
         c.close()
 
 
