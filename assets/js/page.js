@@ -175,7 +175,7 @@ function fn(){
         location.href = "apri.html";
     }
     else {
-        location.href = "lybel.html";
+        location.href = "lybrel.html";
     }
 
 
