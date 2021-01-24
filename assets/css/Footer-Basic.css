@@ -142,3 +142,29 @@
   margin-left: auto;
 }
 
+#cards {
+  text-align: center;
+  border-radius: 20px;
+  background-color: #A0ddff;
+  padding: 10px;
+}
+
+#carddetail {
+  color: #444444;
+}
+
+#cardtitle {
+  color: #FFFFEA;
+  font-weight: 800;
+  font-size: 26px;
+}
+
+#drugtitle {
+  font-weight: 800;
+  font-size: 50px;
+}
+
+#review {
+  color: #444444;
+}
+
