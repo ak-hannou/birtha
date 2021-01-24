@@ -138,7 +138,7 @@ function fn(){
     }
 
 
-    if(o35 && smokeY){
+    if(o35 && smokeY || (clots||cancer||heart||migraines||pressure||diabetes)){
         location.href = "minipill.html";
     }
 
