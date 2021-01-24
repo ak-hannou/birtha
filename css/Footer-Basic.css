@@ -1,0 +1,170 @@
+.footer-basic {
+  padding: 40px 0;
+  background-color: #ffffff;
+  color: #4b4c4d;
+}
+
+.footer-basic ul {
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+
+.footer-basic li {
+  padding: 0 10px;
+}
+
+.footer-basic ul a {
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.footer-basic ul a:hover {
+  opacity: 1;
+}
+
+.footer-basic .social {
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.footer-basic .social > a {
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  margin: 0 8px;
+  color: inherit;
+  opacity: 0.75;
+}
+
+.footer-basic .social > a:hover {
+  opacity: 0.9;
+}
+
+.footer-basic .copyright {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 13px;
+  color: #aaa;
+  margin-bottom: 0;
+}
+
+#button1 {
+  text-align: center;
+  padding: 15px;
+  padding-right: 30px;
+  padding-left: 30px;
+  background-color: #f4acb7;
+  border-radius: 10px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.text-center.header-blue {
+  background-image: initial;
+  background-color: #fafafa;
+}
+
+#footer {
+}
+
+#title {
+  padding: 0px;
+}
+
+#logo {
+  width: 150px;
+  height: 150px;
+  padding-left: 10px;
+}
+
+#disclaimer {
+  text-align: center;
+  max-height: 160px;
+  max-width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 50px;
+}
+
+#button2 {
+  background-color: #f4acb7;
+  padding: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#myLabel {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 26px;
+  padding: 20px;
+}
+
+#radiobtn {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 16px;
+  font-weight: inherit;
+}
+
+#select-button {
+  max-width: 25%;
+  margin-right: auto;
+  background-color: #f4acb8;
+  color: #FFFFFF;
+  font-size: 16px;
+}
+
+#checkboxlabel {
+  font-size: 16px;
+  font-weight: initial;
+}
+
+#submitbutton {
+  text-align: center;
+  padding: 15px;
+  padding-right: 30px;
+  padding-left: 30px;
+  background-color: #76cfac;
+  border-radius: 10px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#cards {
+  text-align: center;
+  border-radius: 20px;
+  background-color: #A0ddff;
+  padding: 10px;
+}
+
+#carddetail {
+  color: #444444;
+}
+
+#cardtitle {
+  color: #FFFFEA;
+  font-weight: 800;
+  font-size: 26px;
+}
+
+#drugtitle {
+  font-weight: 800;
+  font-size: 50px;
+}
+
+#review {
+  color: #444444;
+}
+
