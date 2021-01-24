@@ -139,7 +139,7 @@ function fn(){
 
 
     if(o35 && smokeY){
-        location.href = "minipills.html";
+        location.href = "minipill.html";
     }
 
     else if(endo){
